@@ -1,10 +1,5 @@
 
 =begin
-- `subtraction` - Build the method `subtraction` that subtracts `num2` from
-  `num1` and returns the result of this calculation
-- `multiplication` - Build the method `multiplication` that multiplies `num1`
-  by `num2` and returns the result of this calculation
-- `division` - Build the method `division` that divides `num2` into `num1` and returns the result of this calculation
 - `modulo` - Build the method `modulo` that divides `num2` into `num1` and gives
   us the _remainder_ of this calculation
 - `square_root` -- Build the method `square_root` that finds the square root of
@@ -59,5 +54,5 @@ return num1 /= num2
 end
 
 def square_root(num)
- return num1 **= num2
+ return Math.sqrt(num)
 end
