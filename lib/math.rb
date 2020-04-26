@@ -50,7 +50,8 @@ return num1 *= num2
 end
 
 def modulo(num1, num2)
-return num1 /= num2
+  multi = num1 / num2
+return num1 - multi * num2
 end
 
 def square_root(num)
